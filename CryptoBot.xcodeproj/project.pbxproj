@@ -3,23 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A421435325BE022900585ADA /* CryptoBotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421435225BE022900585ADA /* CryptoBotView.swift */; };
+		A421435625BE192C00585ADA /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421435525BE192C00585ADA /* Spinner.swift */; };
 		A4F1FC8A25BCDDDC00B29B31 /* CryptoBotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F1FC8925BCDDDC00B29B31 /* CryptoBotApp.swift */; };
 		A4F1FC8C25BCDDDC00B29B31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F1FC8B25BCDDDC00B29B31 /* ContentView.swift */; };
 		A4F1FC8E25BCDDDF00B29B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F1FC8D25BCDDDF00B29B31 /* Assets.xcassets */; };
 		A4F1FC9125BCDDDF00B29B31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F1FC9025BCDDDF00B29B31 /* Preview Assets.xcassets */; };
+		A4F1FC9B25BCDE7300B29B31 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = A4F1FC9A25BCDE7300B29B31 /* SwiftUICharts */; };
+		A4F1FCA725BDCB1200B29B31 /* CryptoBotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F1FCA625BDCB1200B29B31 /* CryptoBotViewModel.swift */; };
+		A4F1FCB725BDD6B600B29B31 /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F1FCB625BDD6B600B29B31 /* Feedback.swift */; };
+		A4F1FCBA25BDD6E800B29B31 /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F1FCB925BDD6E800B29B31 /* System.swift */; };
+		A4F1FCBE25BDDCE600B29B31 /* BinanceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F1FCBD25BDDCE600B29B31 /* BinanceAPI.swift */; };
+		A4F1FCC125BDDE4000B29B31 /* RequestAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F1FCC025BDDE4000B29B31 /* RequestAgent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A421435225BE022900585ADA /* CryptoBotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoBotView.swift; sourceTree = "<group>"; };
+		A421435525BE192C00585ADA /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
 		A4F1FC8625BCDDDC00B29B31 /* CryptoBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F1FC8925BCDDDC00B29B31 /* CryptoBotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoBotApp.swift; sourceTree = "<group>"; };
 		A4F1FC8B25BCDDDC00B29B31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A4F1FC8D25BCDDDF00B29B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4F1FC9025BCDDDF00B29B31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A4F1FC9225BCDDDF00B29B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F1FCA625BDCB1200B29B31 /* CryptoBotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoBotViewModel.swift; sourceTree = "<group>"; };
+		A4F1FCB625BDD6B600B29B31 /* Feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
+		A4F1FCB925BDD6E800B29B31 /* System.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = System.swift; sourceTree = "<group>"; };
+		A4F1FCBD25BDDCE600B29B31 /* BinanceAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceAPI.swift; sourceTree = "<group>"; };
+		A4F1FCC025BDDE4000B29B31 /* RequestAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAgent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4F1FC9B25BCDE7300B29B31 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,11 +68,11 @@
 		A4F1FC8825BCDDDC00B29B31 /* CryptoBot */ = {
 			isa = PBXGroup;
 			children = (
-				A4F1FC8925BCDDDC00B29B31 /* CryptoBotApp.swift */,
-				A4F1FC8B25BCDDDC00B29B31 /* ContentView.swift */,
-				A4F1FC8D25BCDDDF00B29B31 /* Assets.xcassets */,
-				A4F1FC9225BCDDDF00B29B31 /* Info.plist */,
-				A4F1FC8F25BCDDDF00B29B31 /* Preview Content */,
+				A4F1FCBC25BDDB1100B29B31 /* API */,
+				A4F1FCB425BDD67F00B29B31 /* Feedback */,
+				A4F1FC9F25BCF9BF00B29B31 /* ViewModel */,
+				A4F1FC9D25BCF9B700B29B31 /* View */,
+				A4F1FCA925BDD48900B29B31 /* Resources */,
 			);
 			path = CryptoBot;
 			sourceTree = "<group>";
@@ -67,6 +83,53 @@
 				A4F1FC9025BCDDDF00B29B31 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4F1FC9D25BCF9B700B29B31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4F1FC8925BCDDDC00B29B31 /* CryptoBotApp.swift */,
+				A4F1FC8B25BCDDDC00B29B31 /* ContentView.swift */,
+				A421435225BE022900585ADA /* CryptoBotView.swift */,
+				A421435525BE192C00585ADA /* Spinner.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4F1FC9F25BCF9BF00B29B31 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A4F1FCA625BDCB1200B29B31 /* CryptoBotViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A4F1FCA925BDD48900B29B31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4F1FC8D25BCDDDF00B29B31 /* Assets.xcassets */,
+				A4F1FC9225BCDDDF00B29B31 /* Info.plist */,
+				A4F1FC8F25BCDDDF00B29B31 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A4F1FCB425BDD67F00B29B31 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				A4F1FCB625BDD6B600B29B31 /* Feedback.swift */,
+				A4F1FCB925BDD6E800B29B31 /* System.swift */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		A4F1FCBC25BDDB1100B29B31 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A4F1FCBD25BDDCE600B29B31 /* BinanceAPI.swift */,
+				A4F1FCC025BDDE4000B29B31 /* RequestAgent.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +148,9 @@
 			dependencies = (
 			);
 			name = CryptoBot;
+			packageProductDependencies = (
+				A4F1FC9A25BCDE7300B29B31 /* SwiftUICharts */,
+			);
 			productName = CryptoBot;
 			productReference = A4F1FC8625BCDDDC00B29B31 /* CryptoBot.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +178,9 @@
 				Base,
 			);
 			mainGroup = A4F1FC7D25BCDDDC00B29B31;
+			packageReferences = (
+				A4F1FC9925BCDE7300B29B31 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = A4F1FC8725BCDDDC00B29B31 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +207,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4F1FCBA25BDD6E800B29B31 /* System.swift in Sources */,
+				A421435625BE192C00585ADA /* Spinner.swift in Sources */,
+				A4F1FCA725BDCB1200B29B31 /* CryptoBotViewModel.swift in Sources */,
 				A4F1FC8C25BCDDDC00B29B31 /* ContentView.swift in Sources */,
+				A4F1FCBE25BDDCE600B29B31 /* BinanceAPI.swift in Sources */,
+				A4F1FCC125BDDE4000B29B31 /* RequestAgent.swift in Sources */,
+				A4F1FCB725BDD6B600B29B31 /* Feedback.swift in Sources */,
 				A4F1FC8A25BCDDDC00B29B31 /* CryptoBotApp.swift in Sources */,
+				A421435325BE022900585ADA /* CryptoBotView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,10 +344,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CryptoBot/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 3ZLX8VSJT3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CryptoBot/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CryptoBot/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,10 +366,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CryptoBot/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 3ZLX8VSJT3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CryptoBot/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CryptoBot/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -328,6 +404,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A4F1FC9925BCDE7300B29B31 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A4F1FC9A25BCDE7300B29B31 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4F1FC9925BCDE7300B29B31 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A4F1FC7E25BCDDDC00B29B31 /* Project object */;
 }
